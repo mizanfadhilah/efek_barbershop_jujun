@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Efek BarberShop Jujun — barbershop modern dengan layanan potong rambut anak dan dewasa di Jakarta dan Tangerang." />
+  <title>Efek BarberShop Jujun — Your Style, Your Effect</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="announcement"><span class="live-dot"></span> OPEN DAILY · 10.00–22.00 WIB <span class="announcement-divider">/</span> JAKARTA & TANGERANG</div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Efek BarberShop Jujun, beranda">
+      <span class="brand-mark">E<span>✳</span></span>
+      <span class="brand-name">EFEK<span>BARBERSHOP JUJUN</span></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu navigasi" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#tentang">Tentang</a><a href="#gaya">Haircut</a><a href="#harga">Harga</a><a href="#cabang">Cabang</a>
+      <button class="btn btn-small btn-dark" data-booking>Buat janji <span>↗</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> MORE THAN A HAIRCUT</p>
+        <h1>Good hair.<br><span>Good energy.</span></h1>
+        <p class="hero-description">Bukan sekadar rapihin rambut. Kami bantu kamu menemukan gaya yang paling kamu banget — dengan detail, karakter, dan hasil yang bikin percaya diri.</p>
+        <div class="hero-actions"><a href="#gaya" class="btn btn-lime">Temukan gayamu <span>↘</span></a><button class="text-link" data-booking>Booking kursi <span>↗</span></button></div>
+        <div class="hero-stats"><div><strong>3</strong><span>Lokasi cabang</span></div><div><strong>5K<span>+</span></strong><span>Potongan terbaik*</span></div><div><strong>4.9<span>/5</span></strong><span>Kepuasan pelanggan*</span></div></div>
+        <p class="fine-print">*Angka merupakan contoh tampilan dan perlu disesuaikan dengan data aktual.</p>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-wrap"><img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=85" alt="Suasana barbershop modern dengan kursi barber" /></div>
+        <div class="image-label"><span class="label-icon">✳</span><div><strong>THE JUJUN EXPERIENCE</strong><small>Sharp cuts. Fresh look.</small></div><span class="label-arrow">↗</span></div>
+        <div class="vertical-note">JAKARTA · TANGERANG — EST. 2020</div>
+        <span class="hero-stamp">YOUR<br>STYLE<br><b>YOUR<br>EFFECT</b></span>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Layanan kami"><div class="ticker-track"><span>FRESH CUTS</span><i>✳</i><span>GOOD VIBES</span><i>✳</i><span>OWN YOUR STYLE</span><i>✳</i><span>FRESH CUTS</span><i>✳</i><span>GOOD VIBES</span><i>✳</i><span>OWN YOUR STYLE</span><i>✳</i></div></section>
+
+    <section class="section about-section" id="tentang">
+      <div class="section-kicker">01 / THE STORY</div>
+      <div class="about-content"><div><h2>Detail kecil.<br><span>Efek besar.</span></h2></div><div class="about-text"><p class="lead">Kami percaya potongan rambut yang tepat bisa mengubah cara kamu membawa diri.</p><p>Efek BarberShop Jujun hadir sebagai ruang untuk tampil lebih fresh, nyaman jadi diri sendiri, dan pulang dengan style yang pas. Dari konsultasi sampai finishing, setiap detail kami perhatikan.</p><a href="#cabang" class="underlined-link">Kenali lokasi kami <span>↗</span></a></div></div>
+      <div class="values-grid"><article><span>✳ 01</span><h3>Skilled barber</h3><p>Barber berpengalaman dengan perhatian pada detail dan bentuk wajah.</p></article><article><span>✳ 02</span><h3>Good atmosphere</h3><p>Tempat nyaman, santai, dan ramah untuk semua umur.</p></article><article><span>✳ 03</span><h3>Your style first</h3><p>Konsultasi gaya sebelum mulai, supaya hasilnya sesuai ekspektasi.</p></article></div>
+    </section>
+
+    <section class="section styles-section" id="gaya">
+      <div class="section-heading"><div><div class="section-kicker">02 / FIND YOUR LOOK</div><h2>Pick your <span>style.</span></h2></div><p>Swipe inspirasinya, pilih gaya yang cocok, lalu tunjukkan ke barber favoritmu.</p></div>
+      <div class="filter-row" role="group" aria-label="Filter gaya rambut">
+        <button class="filter-btn active" data-filter="all">Semua gaya <span>06</span></button><button class="filter-btn" data-filter="classic">Classic</button><button class="filter-btn" data-filter="fade">Fade</button><button class="filter-btn" data-filter="textured">Textured</button>
+      </div>
+      <div class="style-grid" id="styleGrid">
+        <article class="style-card" data-category="fade"><div class="style-photo"><img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=85" alt="Inspirasi potongan rambut fade" loading="lazy"><span class="style-number">01</span><button class="style-select" data-style="Low Fade" aria-label="Pilih Low Fade">↗</button></div><div class="style-meta"><div><h3>Low Fade</h3><p>Clean · Modern · Versatile</p></div><span class="style-tag">FADE</span></div></article>
+        <article class="style-card" data-category="classic"><div class="style-photo"><img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=800&q=85" alt="Inspirasi potongan rambut classic" loading="lazy"><span class="style-number">02</span><button class="style-select" data-style="Classic Side Part" aria-label="Pilih Classic Side Part">↗</button></div><div class="style-meta"><div><h3>Classic Side Part</h3><p>Timeless · Neat · Sharp</p></div><span class="style-tag">CLASSIC</span></div></article>
+        <article class="style-card" data-category="textured"><div class="style-photo"><img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=85" alt="Inspirasi textured crop" loading="lazy"><span class="style-number">03</span><button class="style-select" data-style="Textured Crop" aria-label="Pilih Textured Crop">↗</button></div><div class="style-meta"><div><h3>Textured Crop</h3><p>Relaxed · Edgy · Fresh</p></div><span class="style-tag">TEXTURED</span></div></article>
+        <article class="style-card" data-category="fade"><div class="style-photo"><img src="https://images.unsplash.com/photo-1593702295094-aea8c7e8a3c9?auto=format&fit=crop&w=800&q=85" alt="Inspirasi potongan mid fade" loading="lazy"><span class="style-number">04</span><button class="style-select" data-style="Mid Fade" aria-label="Pilih Mid Fade">↗</button></div><div class="style-meta"><div><h3>Mid Fade</h3><p>Bold · Balanced · Crisp</p></div><span class="style-tag">FADE</span></div></article>
+        <article class="style-card" data-category="classic"><div class="style-photo"><img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=800&q=85" alt="Inspirasi potongan crew cut" loading="lazy"><span class="style-number">05</span><button class="style-select" data-style="Crew Cut" aria-label="Pilih Crew Cut">↗</button></div><div class="style-meta"><div><h3>Crew Cut</h3><p>Practical · Sporty · Clean</p></div><span class="style-tag">CLASSIC</span></div></article>
+        <article class="style-card" data-category="textured"><div class="style-photo"><img src="https://images.unsplash.com/photo-1593702295094-aea8c7e8a3c9?auto=format&fit=crop&w=800&q=85" alt="Inspirasi potongan modern quiff" loading="lazy"><span class="style-number">06</span><button class="style-select" data-style="Modern Quiff" aria-label="Pilih Modern Quiff">↗</button></div><div class="style-meta"><div><h3>Modern Quiff</h3><p>Volume · Character · Style</p></div><span class="style-tag">TEXTURED</span></div></article>
+      </div>
+      <p class="gallery-note">Foto digunakan sebagai inspirasi visual. Hasil potongan menyesuaikan jenis rambut dan konsultasi dengan barber.</p>
+    </section>
+
+    <section class="price-section" id="harga"><div class="section price-inner"><div class="section-heading price-heading"><div><div class="section-kicker">03 / SIMPLE PRICING</div><h2>Good cut.<br><span>Fair price.</span></h2></div><p>Harga transparan, kualitas tetap jadi prioritas. Pilih kategori untuk melihat layanan.</p></div>
+      <div class="price-switch" role="group" aria-label="Pilih kategori harga"><button class="price-tab active" data-price="dewasa">Dewasa <span>18+</span></button><button class="price-tab" data-price="anak">Anak-anak <span>0–17</span></button></div>
+      <div class="price-list" id="priceList" aria-live="polite"></div>
+      <div class="price-footnote"><span>✳</span> Harga dalam Rupiah. Harga contoh untuk demonstrasi website dan dapat diubah sesuai kebijakan cabang.</div>
+    </div></section>
+
+    <section class="section branch-section" id="cabang"><div class="section-heading"><div><div class="section-kicker">04 / COME THROUGH</div><h2>Find your <span>nearest chair.</span></h2></div><p>Pilih cabang yang paling dekat. Kami tunggu kedatanganmu.</p></div>
+      <div class="branch-grid">
+        <article class="branch-card featured"><div class="branch-top"><span class="branch-badge">HEADQUARTERS</span><span class="branch-index">01 / 03</span></div><h3>Jakarta Selatan</h3><p class="branch-address">Alamat lengkap dapat ditambahkan di sini, Jakarta Selatan.</p><div class="branch-info"><span>◷ 10.00–22.00 WIB</span><span>✆ Nomor cabang</span></div><button class="branch-book" data-branch="Jakarta Selatan">Pilih cabang <span>↗</span></button></article>
+        <article class="branch-card"><div class="branch-top"><span class="branch-badge">BRANCH 02</span><span class="branch-index">02 / 03</span></div><h3>Jakarta Barat</h3><p class="branch-address">Alamat lengkap dapat ditambahkan di sini, Jakarta Barat.</p><div class="branch-info"><span>◷ 10.00–22.00 WIB</span><span>✆ Nomor cabang</span></div><button class="branch-book" data-branch="Jakarta Barat">Pilih cabang <span>↗</span></button></article>
+        <article class="branch-card"><div class="branch-top"><span class="branch-badge">BRANCH 03</span><span class="branch-index">03 / 03</span></div><h3>Tangerang</h3><p class="branch-address">Alamat lengkap dapat ditambahkan di sini, Tangerang.</p><div class="branch-info"><span>◷ 10.00–22.00 WIB</span><span>✆ Nomor cabang</span></div><button class="branch-book" data-branch="Tangerang">Pilih cabang <span>↗</span></button></article>
+      </div>
+      <p class="branch-disclaimer">Catatan: nama wilayah cabang di atas adalah contoh. Lengkapi alamat, nomor telepon, dan tautan peta sebelum website dipublikasikan.</p>
+    </section>
+
+    <section class="booking-banner"><div><p class="eyebrow"><span class="eyebrow-line"></span> READY FOR A FRESH LOOK?</p><h2>Time to make<br>an <span>effect.</span></h2></div><button class="btn btn-lime btn-large" data-booking>Booking sekarang <span>↗</span></button><div class="banner-orbit">E✳</div></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#top"><span class="brand-mark">E<span>✳</span></span><span class="brand-name">EFEK<span>BARBERSHOP JUJUN</span></span></a><p>Built for good hair days.<br>Jakarta & Tangerang, Indonesia.</p><div class="footer-links"><a href="#tentang">Tentang</a><a href="#gaya">Haircut</a><a href="#harga">Harga</a><a href="#cabang">Cabang</a></div><span class="copyright">© <span id="year"></span> EFEK BARBERSHOP JUJUN</span></footer>
+
+  <div class="modal-backdrop" id="bookingModal" aria-hidden="true">
+    <section class="booking-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Tutup formulir">×</button><p class="section-kicker">LET'S GET YOU FRESH</p><h2 id="modalTitle">Book your <span>chair.</span></h2><p class="modal-intro">Isi detail singkat di bawah. Ringkasan booking akan disiapkan untuk dikirim melalui WhatsApp.</p>
+      <form id="bookingForm">
+        <label for="customerName">Nama kamu</label><input id="customerName" name="name" type="text" placeholder="Nama lengkap" required minlength="2">
+        <div class="form-row"><div><label for="customerType">Kategori</label><select id="customerType" name="category"><option value="Dewasa">Dewasa</option><option value="Anak-anak">Anak-anak</option></select></div><div><label for="customerStyle">Pilihan haircut</label><select id="customerStyle" name="style"><option>Rekomendasi barber</option><option>Low Fade</option><option>Classic Side Part</option><option>Textured Crop</option><option>Mid Fade</option><option>Crew Cut</option><option>Modern Quiff</option></select></div></div>
+        <div class="form-row"><div><label for="customerBranch">Cabang</label><select id="customerBranch" name="branch"><option>Jakarta Selatan</option><option>Jakarta Barat</option><option>Tangerang</option></select></div><div><label for="bookingDate">Tanggal</label><input id="bookingDate" name="date" type="date" required></div></div>
+        <label for="bookingTime">Waktu pilihan</label><select id="bookingTime" name="time" required><option value="">Pilih jam</option><option>10.00</option><option>11.00</option><option>12.00</option><option>13.00</option><option>14.00</option><option>15.00</option><option>16.00</option><option>17.00</option><option>18.00</option><option>19.00</option><option>20.00</option><option>21.00</option></select>
+        <button class="btn btn-lime submit-booking" type="submit">Siapkan booking WhatsApp <span>↗</span></button><p class="form-note">Form ini membuka WhatsApp dengan ringkasan pesanan. Nomor WA perlu diatur di file script.js.</p>
+      </form>
+    </section>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
